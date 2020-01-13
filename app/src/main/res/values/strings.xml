@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Whats Status Saver</string>
+    <string name="read_file">This app needs access to your file storage so that it can read files</string>
+    <string name="write_file">This app needs access to your file storage so that it can write files</string>
+    <string name="wallimage">image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">Share</string>
+    <string name="about_us">About Us</string>
+    <string name="more_apps">More Apps</string>
+    <string name="business">Business Status</string>
+    <string name="whatsapp">Status</string>
+    <string name="settings">Settings</string>
+    <string name="check_out_some_status_come_back_again"><![CDATA[Check Out Some Status & Come back Again]]></string>
+    <string name="no_status_available">No Status Available!</string>
+    <string name="video_image">video_image</string>
+    <string name="img_button">img button</string>
+    <string name="are_you_sure_you_want_to_delete">Are You Sure You want to Delete?</string>
+
+
+</resources>

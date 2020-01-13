@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/whatsapp"
+            android:icon="@drawable/whats_nav"
+            android:orderInCategory="103"
+            android:title="@string/whatsapp"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/business"
+            android:icon="@drawable/whats_nav"
+            android:orderInCategory="104"
+            android:title="@string/business"
+            app:showAsAction="never" />
+
+    </group>
+    <group
+        android:id="@+id/list2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/more"
+            android:icon="@drawable/ic_more_24dp"
+            android:orderInCategory="105"
+            android:title="@string/more_apps"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings_nav"
+            android:orderInCategory="106"
+            android:title="@string/settings"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/actionAbout"
+            android:icon="@drawable/ic_about"
+            android:orderInCategory="107"
+            android:title="@string/about_us"
+            app:showAsAction="never" />
+
+
+    </group>
+
+</menu>

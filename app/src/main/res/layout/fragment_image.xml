@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.ImageFragment">
+
+    <com.baoyz.widget.PullRefreshLayout
+        android:id="@+id/i_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/status_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+    </com.baoyz.widget.PullRefreshLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_status_available"
+            android:textColor="@color/textcolor"
+            android:textSize="22sp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@string/check_out_some_status_come_back_again"
+            android:textColor="@color/textcolor"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/ref_bth_img"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_back"
+            android:text="Refresh"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</FrameLayout>
